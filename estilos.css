@@ -1,2 +1,55 @@
+body{
+    background-color: rgb(5, 173, 173);
+}
 
+
+h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: black;
+}
+
+
+
+
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  gap: 8px;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: black;
+
+}
+
+button:hover {
+  background-color: black;
+}
+
+
+#totalContainer {
+  margin-top: 20px;
+  background: #e6f0ff;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
 

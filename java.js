@@ -104,7 +104,6 @@ document.getElementById("ticketForm").addEventListener("submit", function (event
         let cantidadLocal = cantidadPorLocalidad + (i === 0 ? sobrante : 0);
         disponibles[loc] -= cantidadLocal;
     }
-
     alert("Haz comprado tus boletas.");
     setTimeout(() => {
         location.reload();
