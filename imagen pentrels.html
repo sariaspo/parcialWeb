@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .pestel-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+        .pestel-box { padding: 15px; border-radius: 10px; color: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .pestel-title { font-weight: bold; font-size: 18px; margin-bottom: 10px; }
+        .pestel-list { list-style-type: none; padding-left: 5px; }
+        .pestel-list li { margin-bottom: 8px; }
+        .priority { border: 3px solid gold; }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #333;">Matriz PESTEL - KIA Colombia</h1>
+    <div class="pestel-container">
+        <!-- Político -->
+        <div class="pestel-box" style="background-color: #3498db;">
+            <div class="pestel-title">🔵 Político (P)</div>
+            <ul class="pestel-list">
+                <li>Tratados de libre comercio con Corea</li>
+                <li>Estabilidad política</li>
+                <li>Regulaciones de importación</li>
+            </ul>
+        </div>
+        <!-- Económico -->
+        <div class="pestel-box" style="background-color: #2ecc71;">
+            <div class="pestel-title">🟢 Económico (E)</div>
+            <ul class="pestel-list">
+                <li>Fluctuación del dólar</li>
+                <li>Crecimiento del PIB</li>
+                <li>Inflación</li>
+            </ul>
+        </div>
+        <!-- Social -->
+        <div class="pestel-box priority" style="background-color: #f1c40f;">
+            <div class="pestel-title">🟡 Social (S) ⭐</div>
+            <ul class="pestel-list">
+                <li>Demanda de vehículos eléctricos</li>
+                <li>Urbanización</li>
+                <li>Preferencias de marca</li>
+            </ul>
+        </div>
+        <!-- Tecnológico -->
+        <div class="pestel-box priority" style="background-color: #9b59b6;">
+            <div class="pestel-title">🟣 Tecnológico (T) ⭐</div>
+            <ul class="pestel-list">
+                <li>Innovación en conectividad</li>
+                <li>Infraestructura de carga</li>
+                <li>Vehículos autónomos</li>
+            </ul>
+        </div>
+        <!-- Ecológico -->
+        <div class="pestel-box" style="background-color: #e67e22;">
+            <div class="pestel-title">🟠 Ecológico (E)</div>
+            <ul class="pestel-list">
+                <li>Normas de emisiones</li>
+                <li>Incentivos "verdes"</li>
+                <li>Huella de carbono</li>
+            </ul>
+        </div>
+        <!-- Legal -->
+        <div class="pestel-box" style="background-color: #e74c3c;">
+            <div class="pestel-title">🔴 Legal (L)</div>
+            <ul class="pestel-list">
+                <li>Seguridad vehicular</li>
+                <li>Derechos laborales</li>
+                <li>Leyes de competencia</li>
+            </ul>
+        </div>
+    </div>
+    <p style="text-align: center; margin-top: 20px; font-style: italic;">⭐ Factores prioritarios para KIA Colombia</p>
+</body>
+</html>
